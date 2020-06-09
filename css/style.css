@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+    padding: 0; 
+    background-color: #ffffff;
+    background-image: url(../img/background.png);
+    background-position: 0 center;
+    background-repeat: repeat;
+
+    font-family: Calibri, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    color: #141419;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1250px;
+}
+
+.section-title {
+    margin: 0;
+    margin-bottom: 25px;
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 700;
+}
+
+section p {
+    color: #616161;
+}
+
+.orange-bottom {
+    background: linear-gradient( transparent, transparent 48px, #fb973b 48px, #fb973b 58px, transparent 58px);
+}
+
+.orange-text {
+    color: #fb973b;
+    font-weight: 700;
+}
+
+.main-navigation {
+    margin-top: 30px;
+    margin-bottom: 95px;
+    display: flex;
+}
+
+.site-navigation {
+    display: flex;
+    margin: 0;
+    margin-left: 100px;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 29px;
+    
+}
+
+.site-navigation a {
+    text-decoration: none;
+    color: #616161;
+}
+
+.site-navigation a:hover {
+    color: #fb973b;
+}
+
+.site-navigation li {
+    margin:  18px 38px;
+}
+
+.site-navigation li:last-child {
+    color: #141419;
+    font-weight: 700;
+    margin-right: 0;
+}
+
+.application-container {
+    max-width: 660px;
+}
+
+.application {
+    display: flex;
+    margin-bottom: 215px;
+}
+
+.application p {
+    width: 330px;
+}
+
+form {
+    display: flex;
+}
+
+input {
+    padding: 12px 30px 12px 30px;
+    margin: 0;
+    width: 135px;
+    font-size: 18px;
+    line-height: 31px;
+    border: 1px solid #e1e1e1;
+}
+
+button {
+    margin: 0;
+    padding: 13px 30px;
+    width: 195px;
+    background-color: #fb973b;
+    border: none;
+    font-size: 18px;
+    line-height: 31px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e1e1e1;
+    color: #141419;
+}
+
+.application-container-img {
+    position: relative;
+}
+
+.application-container-img img {
+    position: absolute;
+    top: -35px;
+    left: -115px;
+}
+
+
+
+.description-wrapper {
+    width: 825px;
+    margin: 0 auto 150px;
+    text-align: center;
+}
+
+.description-wrapper p {
+    margin: 0 auto 45px;
+    width: 510px;
+    
+}
+
+.description-list {
+    width: 400px;
+    padding-left: 427px;
+    margin: 0;
+    font-size: 18px;
+    line-height: 25px;
+    list-style: none;
+    background-image: url(../img/lamp.png);
+    background-repeat: no-repeat;
+}
+
+.description-item:first-child::before {
+    display: block;
+    margin: 0 auto;
+    content: "";
+    top: 0;
+    left:50%;
+    background-image: url(../img/one.png);
+    background-position: top 50%;
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 50px;
+}
+.description-item:nth-child(2)::before {
+    display: block;
+    margin: 0 auto;
+    content: "";
+    top: 0;
+    left:50%;
+    background-image: url(../img/two.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 83px;
+}
+.description-item:last-child::before {
+    display: block;
+    margin: 0 auto;
+    content: "";
+    top: 0;
+    left:50%;
+    background-image: url(../img/three.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 83px;
+}
+
+.description-item:last-child {
+    padding-bottom: 0;
+}
+
+.partners {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 65px;
+}
+
+.partners h2 {
+    width: 427px;
+}
+
+.partners p {
+    width: 250px;
+}
+
+.partners-list {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 717px;
+}
+
+.partners-item {
+    padding: 30px 0;
+}
+
